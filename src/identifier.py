@@ -165,12 +165,13 @@ class Error_Identifier:
         'President'
     ]
     # Creates a cursor object that allows us to create tables and query into existing tables using SQL language
+    # for security reason, this part containing credential info will be hidden from public
     conn, cursor = data_cleaning.connect_to_db(
-                                            database="postgres",
-                                            hostname="ner-project.cu2tyuqhb3xh.us-east-1.rds.amazonaws.com",
-                                            port="5432",
-                                            userid="HindsightInterns",
-                                            passwrd="interns2020")
+                                            database= "",
+                                            hostname="",
+                                            port="",
+                                            userid="",
+                                            passwrd="")
 
     # ----------------------------------------------------------------------------------------------------------------------
 
