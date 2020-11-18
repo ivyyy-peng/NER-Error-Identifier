@@ -11,3 +11,5 @@ In terminal, run the following command to install all packages needed
 
 Then run streamlit to see the explortary statistics for the identified errors   
 > streamlit run run.py 
+
+Note that the program might not function normally. At present the database is not avaiable because my AWS account is private and needs login credentials. 
